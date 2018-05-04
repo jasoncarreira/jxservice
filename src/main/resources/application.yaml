@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: jxservice
+test.endpoint:
+    message: "Base Test Message"
