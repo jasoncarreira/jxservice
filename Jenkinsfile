@@ -19,7 +19,6 @@ pipeline {
             }
             steps {
                 container('maven') {
-                    sh "mvn versions:set -DnewVersion=$BRANCH_NAME-SNAPSHOT"
                     sh "mvn clean verify install"
                 }
             }
