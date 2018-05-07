@@ -8,3 +8,11 @@ spring:
         strategy: restart_context
 test:
   message: "Base Test Message"
+management:
+  endpoint:
+    health:
+      enabled: true
+    info:
+      enabled: true
+    restart:
+      enabled: true
